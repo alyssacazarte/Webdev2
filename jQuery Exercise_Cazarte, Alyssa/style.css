@@ -1,0 +1,436 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2vh;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(241, 209, 209);
+}
+h1 {
+   font-size: 5 em;
+   margin:0;
+   padding: 0;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif
+}
+h3 {
+    text-align: center;
+    color: black;
+}
+
+.h31 {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+
+    .left,
+    .middle,
+    .right {
+        width: 100%;
+    }
+
+}
+.Naofumi{
+    width:100px;
+    height:100px;
+    border: 1px solid black;
+    margin-left: 44%;
+    position: absolute;
+
+}
+
+button:hover {
+    border: none;
+    background-color: rgb(255, 114, 98);
+
+}
+
+/* div {
+    border: 0.5px solid black;
+    border-radius: 10px;
+} */
+
+button:focus {
+    border: none;
+    outline: none;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    width: 30%;
+    padding: 5.5vh;
+    height: 200px;
+    margin: 0px;
+    border: black;
+    float: left;
+}
+
+.column1 {
+    width: 30%;
+    padding: 1.5vh;
+    height: 200px;
+    margin: 0px;
+    border: black;
+    float: left;
+}
+
+.column2 {
+    width: 100%;
+    padding: 5.5vh;
+    height: 120px;
+    margin: 0px;
+    border: black;
+    background-color: #fff;
+    float: right;
+}
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row1 {
+    align-items: center;
+    margin-top: 2px;
+    float: left;
+    border: black;
+
+}
+
+.left {
+    float: left;
+    background-color:#e3dbb1;
+    margin-top: 8.8vh;
+    align-items: left;
+    height: 50vh;
+    width: 70vh;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+
+.middle {
+    background-color:#e3dbb1;
+    display: block;
+    overflow: hidden;
+    margin-top: 40vh;
+    align-items: center;
+    text-align: center;
+    height: 25%;
+    position: absolute;
+    margin-left: 30%;
+    width: 50vh;
+    margin-left: 36.5%;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    
+
+}
+
+.right {
+    float: right;
+    background-color: #e3dbb1;
+    margin-top: 6vh;
+    align-items: center;
+    height: 50vh;
+    width: 70vh;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    
+}
+
+#rectangle {
+    width: 140px;
+    height: 45px;
+    padding: 0px;
+}
+
+#rectangle1 {
+    width: 140px;
+    height: 45px;
+    padding: 0px;
+}
+
+#rectangle2 {
+    width: 140px;
+    height: 45px;
+    padding: 0px;
+}
+
+#rectangle3 {
+    width: 140px;
+    height: 45px;
+    padding: 0px;
+}
+
+#rectangle4 {
+    width: 140px;
+    height: 45px;
+    padding: 0px;
+}
+
+#rectangle5 {
+    width: 140px;
+    height: 45px;
+    padding: 0px;
+}
+
+#rectangle6 {
+    width: 140px;
+    height: 45px;
+    padding: 0px;
+}
+
+#rectangle7 {
+    width: 140px;
+    height: 45px;
+    padding: 0px;
+}
+
+#rectangle8 {
+    width: 140px;
+    height: 45px;
+    padding: 0px;
+}
+
+#rectangle9 {
+    width: 140px;
+    height: 45px;
+    padding: 0px;
+}
+
+#rectangle10 {
+    width: 140px;
+    height: 45px;
+    padding: 0px;
+}
+
+#rectangle11 {
+    width: 140px;
+    height: 45px;
+    padding: 0px;
+}
+
+#rectangle12 {
+    width: 140px;
+    height: 45px;
+    padding: 0px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+
+}
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 100px solid red;
+    margin: 2vh;
+    margin-right: 2vh;
+}
+.moon {
+    left: 80px;
+    transform: translate(-80%, -80%);
+    height: 80px;
+    width: 80px;
+    box-shadow: -15px 15px 0 5px red;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.star {
+    margin: 50px 0;
+    position: relative;
+    display: block;
+    color: red;
+    width: 0px;
+    height: 0px;
+    border-right:  100px solid transparent;
+    border-bottom: 70px  solid red;
+    border-left:   100px solid transparent;
+    
+}
+
+.star:before {
+    border-bottom: 80px solid red;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+   
+}
+
+.star:after {
+    position: absolute;
+    display: block;
+    color: red;
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid red;
+    border-left: 100px solid transparent;
+ 
+}
+
+.octagon {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+}
+
+.octagon:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 29px solid red;
+    border-left: 29px solid #eee;
+    border-right: 29px solid #eee;
+    width: 42px;
+    height: 0;
+}
+
+.octagon:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 29px solid red;
+    border-left: 29px solid #eee;
+    border-right: 29px solid #eee;
+    width: 42px;
+    height: 0;
+}
+
+.heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+}
+
+.heart:before,
+.heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+.heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+
+.cross {
+    background: red;
+    height: 100px;
+    position: relative;
+    width: 20px;
+    margin: 2vh 5vh;
+
+}
+
+.cross:after {
+    background: red;
+    content: "";
+    height: 20px;
+    left: -40px;
+    position: absolute;
+    top: 40px;
+    width: 100px;
+    margin-left: 0.5vh;
+}
+
+.yin-yang {
+    width: 96px;
+    box-sizing: content-box;
+    height: 48px;
+    background: #eee;
+    border-color: red;
+    border-style: solid;
+    border-width: 2px 2px 50px 2px;
+    border-radius: 100%;
+    position: relative;
+}
+
+.yin-yang:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: #eee;
+    border: 18px solid red;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    box-sizing: content-box;
+}
+
+.yin-yang:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: red;
+    border: 18px solid #eee;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    box-sizing: content-box;
+}

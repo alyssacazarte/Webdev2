@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: url('img.jpg.jpg.jpg') no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size: cover;
+}
+h1{
+    margin-left: 5%;
+    font-size: 5em;
+    margin-top: 3%;
+    border-radius: 10px;
+    color: palevioletred;
+}
+.strike {
+    text-decoration: line-through;
+    font-size: 120%;
+    color: red;
+}
+  .todo-list{
+    list-style-type: numbers;
+    margin-left: 11%;
+    font-size: 1.2em;
+    height: 50vh;
+    width: 60vh;
+    border: 5px solid palevioletred;
+    border-radius: 10px;
+    color:darkblue;
+}
+.form-add-todo{
+    margin-left: 15%;   
+    font-size: 1.7em;
+}
+.add-todo-item{
+    font-size: .5em;
+}
+
+
